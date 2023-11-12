@@ -1,0 +1,33 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("../image/img.png");
+}
+
+.container {
+    padding: 32px 110px;
+    border-radius: 14px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    padding: 6px 20px;
+}
+
+.strt-button {
+    background: #8749BC;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px 30px;
+    margin: 20px 0;
+}
+
+.strt-button:hover {
+    background: #D3A3DA;
+    transition: 0.3s;
+}
